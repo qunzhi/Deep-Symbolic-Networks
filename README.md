@@ -1,6 +1,6 @@
 # Deep-Symbolic-Networks
 Working on the model of Deep Symbolic Networks 
-
+![Deep Symbolic Networks](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/workingpaper/dsn.png)
 We introduce the Deep Symbolic Network (DSN) model,
 which aims at becoming the white-box version of Deep Neural Networks
 (DNN). The DSN model provides a simple, universal yet powerful
