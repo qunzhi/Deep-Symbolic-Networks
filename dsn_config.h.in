@@ -1,0 +1,8 @@
+#ifndef _DSN_CONFIG_H
+#define _DSN_CONFIG_H
+
+#include <inttypes.h>
+typedef intptr_t dint;
+
+#endif
+
