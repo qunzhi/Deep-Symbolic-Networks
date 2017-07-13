@@ -3,7 +3,7 @@ Working on the model of [Deep Symbolic Networks](https://github.com/qunzhi/Deep-
 
 This piece is done to flesh out the backbone of a route inspired from statistical physics and complex system theory, which we think can be useful to communicate, notwithstanding the lack of rigour and the draft nature. We are well aware of the limitations. 
 
-![Deep Symbolic Networks](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/workingpaper/dsn.png)
+![Deep Symbolic Networks](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/conceptual%20paper/dsn.png)
 We introduce the Deep Symbolic Network (DSN) model,
 which aims at becoming the white-box version of Deep Neural Networks
 (DNN). The DSN model provides a simple, universal yet powerful
