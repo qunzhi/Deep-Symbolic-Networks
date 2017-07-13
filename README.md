@@ -10,6 +10,4 @@ Key insights:
 5. natural languages are the means of humans communicating knowledge encoded in deep symbolic networks, such as definitions of things or concepts, changing states of physical things, processes, and much more
 
 List of things to do:
-1. DSN can be seen as Deep Neural Networks (DNN), if one uses neural networks to identify symbols. It is thus possible to find symbols and links from DNN results by visualizing them.
-2. It might be possible to add prior and posterior probabilities to the symbols in DNN results. If it can work, the results can be used to do Bayesian inference, thus useful for applications in specific domains
-3. unsupervised learning algorithm development started from the MNIST database
+1. unsupervised learning algorithm development started from the MNIST database
