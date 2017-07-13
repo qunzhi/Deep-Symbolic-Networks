@@ -1,5 +1,5 @@
 # Deep-Symbolic-Networks
-Development of the [Deep Symbolic Networks (DSN) model](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/workingpaper/main_DSN.pdf) towards the dream of strong AI
+Development of the [Deep Symbolic Networks (DSN) model](https://github.com/qunzhi/Deep-Symbolic-Networks/blob/master/concept.md) towards the dream of strong AI
 
 Key insights:
 1. intelligence is an emergent phenomenon of the complex world, which has a deep, hierarchical structure
