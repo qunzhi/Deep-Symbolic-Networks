@@ -1,27 +1,15 @@
 # Deep-Symbolic-Networks
-Working on the model of [Deep Symbolic Networks](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/workingpaper/main_DSN.pdf) 
-![Deep Symbolic Networks](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/workingpaper/dsn.png)
-We introduce the Deep Symbolic Network (DSN) model,
-which aims at becoming the white-box version of Deep Neural Networks
-(DNN). The DSN model provides a simple, universal yet powerful
-structure, similar to DNN, to represent any knowledge of the world,
-which is transparent to humans. The conjecture behind the DSN model
-is that any type of real world objects sharing enough common
-features are mapped into human brains as a symbol. Those symbols are
-connected by links, representing the composition, correlation,
-causality, or other relationships between them, forming a deep,
-hierarchical symbolic network structure. Powered by such a
-structure, the DSN model is expected to learn like humans, because
-of its unique characteristics. 
-    
-First, it is universal, using the same structure to store any knowledge. 
-    
-Second, it can learn symbols from the world and construct the deep symbolic networks automatically, by utilizing the fact that real world objects have been naturally separated by singularities.  
-    
-Third, it is symbolic, with the capacity of performing causal deduction and generalization.
-    
-Fourth, the symbols and the links between them are transparent to us, and thus we will know what it has learned or not - which is the key for the security of an AI system. 
-    
-Fifth, its transparency enables it to learn with relatively small data. Sixth, its knowledge can be accumulated. 
-    
-Last but not least, it is more friendly to unsupervised learning than DNN. We present the details of the model, the algorithm powering its automatic learning ability, and describe its usefulness in different use cases. The purpose of this paper is to generate broad interest to develop it within an open source project centered on the Deep Symbolic Network (DSN) model towards the development of general AI.  
+Development of the [Deep Symbolic Networks (DSN) model](https://github.com/qunzhi/Deep-Symbolic-Networks/raw/master/workingpaper/main_DSN.pdf) towards the dream of strong AI
+
+Key insights:
+1. intelligence is an emergent phenomenon of the complex world, which has a deep, hierarchical structure
+2. physical things are mapped to symbols in human brains by coarse-graining, so the real world is mapped to a deep symbolic network
+3. symbols and their combinations sharing common features will produce new symbols, such as more abstract concepts
+5. symbols are separated by singularities, so it is possible to learn a deep symbolic network by adaptive learning; i.e., unsupervised learning and self correcting adaptive to the outside world
+4. knowledge can be represented by the symbols and their links, which can be used to adapt to or modify the outside world
+5. natural languages are the means of humans communicating knowledge encoded in deep symbolic networks, such as definitions of things or concepts, changing states of physical things, processes, and much more
+
+List of things to do:
+1. DSN can be seen as Deep Neural Networks (DNN), if one uses neural networks to identify symbols. It is thus possible to find symbols and links from DNN results by visualizing them.
+2. It might be possible to add prior and posterior probabilities to the symbols in DNN results. If it can work, the results can be used to do Bayesian inference, thus useful for applications in specific domains
+3. unsupervised learning algorithm development started from the MNIST database
