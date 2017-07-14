@@ -22,3 +22,5 @@ The cumulative and adaptive learning system may include the following components
 
 ## Technique aspects
 The main programming languages/tools will be Python, Cython and C/C++, to combine both productivity and performance. Any good Python, Cython and C/C++ frameworks will be welcome. 
+
+The CMake modules for Cython are taken from the [scikit-build](https://github.com/scikit-build/scikit-build) project. I do not clone their entire repository because so far this project needs only the Cython modules. Many thanks for their contribution to the community.
