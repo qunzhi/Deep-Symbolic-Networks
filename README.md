@@ -18,7 +18,7 @@ Because DSN will do cumulative and adaptive learning, it is unwise to not learn 
 
 The idea of cumulative and adaptive learning is that we let the model learn only a small number of symbols at one time, and let it accumulate knowledge, including symbols, links and more abstract concepts it coarse-grains from the data. The learning is done by following the unsupervised learning concept described in the paper. We present knowledge to the model, it learns and shows what it has learned, and corrects the mistakes by adapting to external feedbacks.
 
-The cumulative and adaptive learning system may include the following components: an unsupervised, cumulative learning unit, a self-correcting unit to react to external feedbacks, and a visualization unit to show what it has learned.  
+The cumulative and adaptive learning system may include the following components: an unsupervised, cumulative learning unit, a self-correcting unit to interact with the external world, and a visualization unit to show what it has learned.  
 
 ## Technique aspects
 The main programming languages/tools will be Python, Cython and C/C++, to combine both productivity and performance. Any good Python, Cython and C/C++ frameworks will be welcome. 
