@@ -3,7 +3,7 @@ Development of the [Deep Symbolic Networks (DSN) model](https://github.com/qunzh
 
 1. [Key insights](#key_insights)
 2. [Roadmap](#roadmap)
-3. [Technique aspects](#technique_aspects)
+3. [Technique aspects](#technique-aspects)
 
 ## Key insights
 1. intelligence is an emergent phenomenon of the complex world, which has a deep, hierarchical structure
