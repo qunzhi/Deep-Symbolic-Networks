@@ -10,6 +10,7 @@ Key insights:
 5. natural languages are the means of humans communicating knowledge encoded in deep symbolic networks, such as definitions of things or concepts, changing states of physical things, processes, and much more
 
 Roadmap
+
 Because DSN will do cumulative and adaptive learning, it is unwise to not learn from simplest things. That is indeed a convenient way of disentangling complex interactions between things. So the first goal of the DSN development is to build a cumulative and adaptive learning system, from learning basic, regular geometric shapes, printing digits, to handwritten digits, i.e. from regular things to irregular things, from easy to hard. 
 
 The idea of cumulative and adaptive learning is that we let the model learn only a small number of symbols at one time, and let it accumulate knowledge, including symbols, links and more abstract concepts it coarse-grains from the data. The learning is done by following the unsupervised learning concept described in the paper. We present knowledge to the model, it learns and shows what it has learned, and corrects the mistakes by adapting to external feedbacks.
@@ -17,4 +18,5 @@ The idea of cumulative and adaptive learning is that we let the model learn only
 The cumulative and adaptive learning system may include the following components: an unsupervised, cumulative learning unit, a self-correcting unit to react to external feedbacks, and a visualization unit to show what it has learned.  
 
 Technique aspects
+
 The main programming languages/tools will be Python, Cython and C/C++, to combine both productivity and performance. Any good Python, Cython and C/C++ frameworks will be welcome. 
