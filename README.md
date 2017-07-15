@@ -14,13 +14,17 @@ Development of the [Deep Symbolic Networks (DSN) model](https://github.com/qunzh
 5. Natural languages are the means of humans communicating knowledge encoded in deep symbolic networks, such as definitions of things or concepts, changing states of physical things, processes, and much more.
 
 ## Roadmap
-Because DSN will do cumulative and adaptive learning, it is unwise to not learn from simplest things. That is indeed a convenient way of disentangling complex interactions between things. So the first goal of the DSN development is to build a cumulative and adaptive learning system, from learning basic, regular geometric shapes, printing digits, to handwritten digits, i.e. from regular things to irregular things, from easy to hard. 
+Because DSN will do cumulative and adaptive learning, it is unwise to not learn from simplest things. That is indeed a convenient way of disentangling complex interactions between things. Therefore, the first goal of the DSN development is to build a cumulative and adaptive learning system, from learning basic, regular geometric shapes, printing digits, to handwritten digits, i.e. from regular things to irregular things, from easy to hard. 
 
-The idea of cumulative and adaptive learning is that we let the model learn only a small number of symbols at one time, and let it accumulate knowledge, including symbols, links and more abstract concepts it coarse-grains from the data. The learning is done by following the unsupervised learning concept described in the paper. We present knowledge to the model, it learns and shows what it has learned, and corrects the mistakes by adapting to external feedbacks.
+The idea of cumulative and adaptive learning is that we let the model learn only a small number of symbols at one time, and let it accumulate knowledge, including symbols, links and more abstract concepts it coarse-grains from the data. The learning is done by following the unsupervised learning concept described in the paper. We present knowledge to the model, it learns and shows what it has learned, and corrects the mistakes by adapting to external feedbacks. It can be viewed as a sort of [Active Learning](http://burrsettles.com/pub/settles.activelearning.pdf)<sup>1</sup>.
 
 The cumulative and adaptive learning system may include the following components: an unsupervised, cumulative learning unit, a self-correcting unit to interact with the external world, and a visualization unit to show what it has learned.  
+
+
+1.　Settles, B. 2009. Active learning literature survey. Computer Sciences Technical Report 1648, University of Wisconsin–Madison.
 
 ## Technique aspects
 The main programming languages/tools will be Python, Cython and C/C++, to combine both productivity and performance. Any good Python, Cython and C/C++ frameworks will be welcome. 
 
 The CMake modules for Cython are taken from the [scikit-build](https://github.com/scikit-build/scikit-build) project. I do not clone their entire repository because so far this project needs only the Cython modules. Many thanks for their contribution to the community.
+
